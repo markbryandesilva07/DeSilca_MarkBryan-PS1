@@ -1,0 +1,75 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5c065c; /* Light gray background */
+  }
+  
+  h1, h2, h3 {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  a {
+    color: #333333; /* Dark gray for links */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #038109; /* Blue on hover */
+  }
+  
+  /* Layout styles (optional) */
+  .container {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff7c; /* White background for content areas */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(138, 90, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Form styles (optional) */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px; /* Adjust as needed */
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45A049; /* Green darkened */
+  }
